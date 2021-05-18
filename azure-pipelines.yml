@@ -11,7 +11,7 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      name: 'selfhostedvmss'
+      name: 'vmssagentpool2'
       vmImage: 'ubuntu-18.04'
       demands:
       - npm
